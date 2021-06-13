@@ -1,0 +1,35 @@
+h1 {
+	font-family: monospace;
+	font-weight: bold;
+	color: white;
+}
+input[type="Email"] {
+	transition: 0.3s ease-in-out;
+	border-radius: 50px;
+	border-width: 2px;
+}
+input[type="Email"]::placeholder {
+	font-family: monospace;
+}
+#textarea {
+	transition: 0.3s ease-in-out;
+	border-radius: 20px;
+	border-width: 2px;
+}
+#textarea::placeholder {
+	font-family: monospace;
+}
+#cardheader {
+	background: url(contactusimg.jpg) no-repeat center center/cover;
+	opacity: 0.8;
+}
+#button {
+	font-family: monospace;
+}
+.card {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#cardrow {
+	justify-content: center;
+}
